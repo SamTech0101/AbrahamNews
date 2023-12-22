@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Abraham News</string>
+    <string name="all_home">Home</string>
+    <string name="all_categories">Categories</string>
+    <string name="all_bookmarks">Bookmark</string>
+    <string name="all_videos">Videos</string>
+    <string name="home_viewAll">View All</string>
+    <string name="home_latestNews">Latest News</string>
+    <string name="home_searchHint">Search Here…</string>
+    <string name="all_unknown_error">unknown Error</string>
+    <string name="category_topStories">Top Stories</string>
+    <string name="category_World">World</string>
+    <string name="category_business">Business</string>
+    <string name="category_iran">Iran</string>
+    <string name="category_health">Health</string>
+    <string name="category_technology">Technology</string>
+    <string name="bookmark_addNewBookmark">There is any bookmarked news… Start Now !</string>
+    <string name="setting_viewTitle">Language Settings</string>
+    <string name="setting_selectLocaleMessage">Select application default language</string>
+    <string name="setting_restartMessage">Please tap the icon below to change the language</string>
+    <string name="search_noResultMessage">No Result!</string>
+    <string name="welcome_version">version : 1.0.0</string>
+    <string name="tv_noInternet_tutnOn_content">Check your connection and retry now</string>
+
+    <string name="tv_noInternet_tutnOn_title">No internet connections !</string>
+    <string name="button_noIntenrnet_back">back</string>
+    <string name="press_again_to_exit">press again to exit</string>
+    <string name="msg_token_fmt">UEER_SAMPLE</string>
+
+
+    <string name="button_noIntenrnet_retry">RETRY</string>
+    <string name="tv_noInternet_oops">Whoops!</string>
+
+
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <resources>
+    <color name="brown_welcom">#f1f0de</color>
+
+    <color name="LinearLayout_dark">#aa000000</color>
+
+    <color name="blue_grey_700">#ff455a64</color>
+
+    <color name="blue_lottie">#ff153285</color>
+
+    <color name="brown_500">#ff795548</color>
+
+    <color name="categories_iconColor">#bbddbbdd</color>
+
+    <color name="colorAccent">#ff03a9f4</color>
+
+    <color name="colorPrimary">#ff2196f3</color>
+
+    <color name="colorPrimaryDark">#ff1e88e5</color>
+
+    <color name="darkSlate">#ff2f4f4f</color>
+
+    <color name="gray100">#fff5f5f5</color>
+
+    <color name="gray200">#ffeeeeee</color>
+
+    <color name="gray300">#ffe0e0e0</color>
+
+    <color name="gray400">#ffbdbdbd</color>
+
+    <color name="grey_10">#ffe6e6e6</color>
+
+    <color name="grey_20">#ffcccccc</color>
+
+    <color name="grey_3">#fff7f7f7</color>
+
+    <color name="grey_40">#ff999999</color>
+
+    <color name="grey_5">#fff2f2f2</color>
+
+    <color name="grey_60">#ff666666</color>
+
+    <color name="grey_700">#ff616161</color>
+
+    <color name="grey_80">#ff37474f</color>
+
+    <color name="grey_90">#ff263238</color>
+    <color name="brown_800">#4E342E</color>
+
+    <color name="indigo_500">#ff4e342e</color>
+
+    <color name="lndigo">#ff4b0082</color>
+
+    <color name="midnightBlue">#ff191970</color>
+
+    <color name="orange_500">#ffff9800</color>
+
+    <color name="orange_A200">#ffffab40</color>
+
+    <color name="overlay_light_90">#e6ffffff</color>
+
+    <color name="pink_800">#ffad1457</color>
+
+    <color name="purple_500">#ff9c27b0</color>
+
+    <color name="red_100">#ffffcdd2</color>
+
+    <color name="red_200">#ffef9a9a</color>
+
+    <color name="red_300">#ffe57373</color>
+
+    <color name="red_400">#ffef5350</color>
+
+    <color name="red_50">#ffffebee</color>
+
+    <color name="red_500">#fff44336</color>
+
+    <color name="red_600">#ffe53935</color>
+
+    <color name="red_700">#ffd32f2f</color>
+
+    <color name="red_800">#ffc62828</color>
+
+    <color name="red_900">#ffb71c1c</color>
+
+    <color name="red_A100">#ffff8a80</color>
+
+    <color name="red_A200">#ffff5252</color>
+
+    <color name="red_A400">#ffff1744</color>
+
+    <color name="red_A700">#ffd50000</color>
+
+    <color name="slateBlue">#ff6a5acd</color>
+
+    <color name="teal_800">#ff00695c</color>
+    <color name="cyan_700">#0097A7</color>
+
+    <color name="transparent">#00000000</color>
+
+</resources>

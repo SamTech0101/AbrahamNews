@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/linear_wifi" android:background="@android:color/white" android:visibility="visible" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+
+		<ImageView android:id="@+id/iv_noInternet"
+			android:layout_width="250dp"
+			android:layout_height="250dp"
+			android:src="@drawable/img_no_internet_satellite"
+			android:layout_centerHorizontal="true" />
+		<LinearLayout android:gravity="center"
+			android:orientation="vertical"
+			android:id="@+id/lyt_no_connection"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="12.0dip"
+			android:layout_marginBottom="64dp"
+			android:layout_alignParentBottom="true"
+			android:layout_centerHorizontal="true">
+			<TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Display1" android:textStyle="bold" android:textColor="@color/colorPrimary" android:id="@+id/tv_noInternet_oops" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tv_noInternet_oops" />
+			<TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:textColor="@color/colorPrimary" android:gravity="center" android:id="@+id/tv_noInternet_tutnOn_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tv_noInternet_tutnOn_title" />
+			<TextView android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" android:textColor="@color/colorPrimary" android:gravity="center" android:id="@+id/tv_noInternet_tutnOn_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tv_noInternet_tutnOn_content" />
+
+
+			<androidx.appcompat.widget.AppCompatButton
+				android:textColor="@android:color/white"
+					android:id="@+id/button_noIntenrnet_retry"
+					android:background="@drawable/btn_rounded_primary"
+					android:layout_width="200.0dip"
+					android:layout_height="50.0dip"
+					android:layout_marginTop="12.0dip"
+					android:layout_marginEnd="6dp"
+					android:text="@string/button_noIntenrnet_retry" />
+
+
+		</LinearLayout>
+	</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:fitsSystemWindows="true" android:visibility="visible" android:background="@android:color/white" android:id="@id/linear_wifi" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout android:layout_height="fill_parent" android:layout_width="fill_parent">
+
+    <ImageView android:layout_height="200.0dip" android:layout_width="200.0dip" android:id="@id/iv_noInternet" android:layout_centerHorizontal="true" android:src="@drawable/img_no_internet_satellite"/>
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@id/lyt_no_connection" android:orientation="vertical" android:layout_centerHorizontal="true" android:layout_alignParentBottom="true" android:layout_marginBottom="18.0dip" android:layout_marginTop="12.0dip" android:padding="4.0dip" android:gravity="center">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@id/tv_noInternet_tutnOn_title" android:gravity="center" android:text="@string/tv_noInternet_tutnOn_title" android:textColor="@color/colorAccent" android:textStyle="bold" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@id/tv_noInternet_tutnOn_content" android:gravity="center" android:text="@string/tv_noInternet_tutnOn_content" android:textColor="@color/colorPrimary" android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_height="wrap_content" android:layout_width="200.0dip" android:background="@drawable/btn_rounded_primary" android:id="@id/button_noIntenrnet_retry" android:layout_marginTop="12.0dip" android:text="@string/button_noIntenrnet_retry" android:textColor="@android:color/white"/>
+
+
+</LinearLayout>
+
+</RelativeLayout>
+
+</LinearLayout>

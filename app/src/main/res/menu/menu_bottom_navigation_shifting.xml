@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tab_home"
+        android:icon="@drawable/home"
+        android:title="@string/all_home" />
+
+    <item
+        android:id="@+id/tab_category"
+        android:icon="@drawable/buffer"
+        android:title="@string/all_categories"/>
+
+    <item
+        android:id="@+id/tab_bookmarks"
+        android:icon="@drawable/library"
+        android:title="@string/all_bookmarks" />
+
+    <item
+        android:id="@+id/tab_videos"
+        android:icon="@drawable/youtube_play"
+        android:title="@string/all_videos"/>
+
+</menu>

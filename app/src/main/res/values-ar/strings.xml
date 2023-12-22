@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">آبراهام نیوز</string>
+    →
+    <string name="app_name">أخبار آبراهام</string>
+    <string name="all_home">خانه</string>
+    →
+    <string name="all_home">الرئيسية</string>
+    <string name="all_categories">دسته بندی</string>
+    →
+    <string name="all_categories">التصنيفات</string>
+    <string name="all_bookmarks">نشانک</string>
+    →
+    <string name="all_bookmarks">المفضلة</string>
+    <string name="all_videos">ویدیو</string>
+    →
+    <string name="all_videos">فيديو</string>
+    <string name="home_viewAll">مشاهده همه</string>
+    →
+    <string name="home_viewAll">عرض الكل</string>
+    <string name="home_latestNews">آخرین اخبار</string>
+    →
+    <string name="home_latestNews">آخر الأخبار</string>
+    <string name="home_searchHint">عبارت مورد نظر را اینجا جستجو کنید…</string>
+    →
+    <string name="home_searchHint">ابحث عن العبارة المطلوبة هنا...</string>
+    <string name="all_unknown_error">خطا در دریافت اطلاعات</string>
+    →
+    <string name="all_unknown_error">خطأ في استلام المعلومات</string>
+    <string name="category_topStories">داغ ترین اخبار</string>
+    →
+    <string name="category_topStories">أهم الأخبار</string>
+    <string name="category_World">بین الملل</string>
+    →
+    <string name="category_World">عالمي</string>
+    <string name="category_business">شغلی</string>
+    →
+    <string name="category_business">أعمال</string>
+    <string name="category_iran">ایران</string>
+    →
+    <string name="category_iran">إيران</string>
+    <string name="category_health">سلامت</string>
+    →
+    <string name="category_health">صحة</string>
+    <string name="category_technology">تکنولوژی</string>
+    →
+    <string name="category_technology">تكنولوجيا</string>
+    <string name="bookmark_addNewBookmark">هیچ خبر نشان شده ای نداری! الان شروع کن</string>
+    →
+    <string name="bookmark_addNewBookmark">ليس لديك أي خبر محفوظ! ابدأ الآن</string>
+    <string name="setting_viewTitle">تنظیمات زبان</string>
+    →
+    <string name="setting_viewTitle">إعدادات اللغة</string>
+    <string name="setting_selectLocaleMessage">زبان را انتخاب کنید</string>
+    →
+    <string name="setting_selectLocaleMessage">اختر اللغة</string>
+    <string name="setting_restartMessage">لطفا بر روی آیکن زیر بزنید تا زبان تغییر کند</string>
+    →
+    <string name="setting_restartMessage">الرجاء النقر على الأيقونة أدناه لتغيير اللغة</string>
+    <string name="welcome_version">ورژن : 1.0.0</string>
+    →
+    <string name="welcome_version">الإصدار: 1.0.0</string>
+    <string name="tv_noInternet_oops">وااای!</string>
+    →
+    <string name="tv_noInternet_oops">يا للهول!</string>
+    <string name="msg_token_fmt">UEER_SAMPLE</string>
+    →
+    <string name="msg_token_fmt">UEER_SAMPLE</string>
+    <string name="tv_noInternet_tutnOn_content">اتصال اینترنت رو چک کن و دوباره امتحان کن</string>
+    →
+    <string name="tv_noInternet_tutnOn_content">تحقق من اتصال الإنترنت وحاول مرة أخرى</string>
+    <string name="tv_noInternet_tutnOn_title">عدم اتصال به اینترنت !</string>
+    →
+    <string name="tv_noInternet_tutnOn_title">لا يوجد اتصال بالإنترنت!</string>
+    <string name="button_noIntenrnet_back">برگشت</string>
+    →
+    <string name="button_noIntenrnet_back">عودة</string>
+    <string name="press_again_to_exit">برای خروج از برنامه دکمه بازگشت را لمس کنید</string>
+    →
+    <string name="press_again_to_exit">للخروج من التطبيق، اضغط على زر العودة مرة أخرى</string>
+    <string name="search_noResultMessage">موردی یافت نشد!</string>
+    →
+    <string name="search_noResultMessage">لم يتم العثور على نتائج!</string>
+    <string name="button_noIntenrnet_retry">دوباره امتحان کن</string>
+    →
+    <string name="button_noIntenrnet_retry">حاول مرة أخرى</string>
+
+</resources>

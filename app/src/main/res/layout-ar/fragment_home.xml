@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+	android:id="@+id/swip_home"
+
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+	<androidx.coordinatorlayout.widget.CoordinatorLayout
+		xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<com.google.android.material.appbar.AppBarLayout
+			android:background="@color/blue_grey_700"
+			android:paddingTop="24dp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+
+			>
+			<RelativeLayout
+				android:layout_width="fill_parent"
+				android:layout_height="?actionBarSize">
+				<ImageView android:id="@id/iv_home_setting"
+					android:layout_width="40.0dip"
+					android:layout_height="40.0dip"
+					android:layout_centerVertical="true"
+					android:layout_marginStart="8.0dip"
+					android:layout_marginEnd="8.0dip"
+					app:srcCompat="@drawable/iran480" />
+				<TextView
+					android:textSize="16.0sp"
+					android:textColor="@android:color/white"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/app_name"
+					android:layout_centerVertical="true"
+					android:layout_toEndOf="@id/iv_home_setting" />
+				<ImageView android:id="@id/iv_home_search"
+					android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" app:srcCompat="@drawable/magnify" />
+			</RelativeLayout>
+		</com.google.android.material.appbar.AppBarLayout>
+		<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+			<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+				<com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+					android:id="@+id/iv_banner_empty"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:adjustViewBounds="true"
+					android:src="@drawable/blank_billboard"
+					android:visibility="gone"
+					/>
+				<com.smarteist.autoimageslider.SliderView
+					android:id="@+id/imageSlider"
+					android:layout_width="match_parent"
+					android:layout_height="270dp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/include"
+					app:sliderAnimationDuration="600"
+					app:sliderAutoCycleDirection="back_and_forth"
+					app:sliderAutoCycleEnabled="true"
+					app:sliderIndicatorAnimationDuration="600"
+					app:sliderIndicatorGravity="center_horizontal|bottom"
+					app:sliderIndicatorMargin="15dp"
+					app:sliderIndicatorOrientation="horizontal"
+					app:sliderIndicatorPadding="3dp"
+					app:sliderIndicatorRadius="2dp"
+					app:sliderIndicatorSelectedColor="#5A5A5A"
+					app:sliderIndicatorUnselectedColor="#FFF"
+					app:sliderScrollTimeInSec="1"
+					app:sliderStartAutoCycle="true" />
+
+				<!--				<androidx.recyclerview.widget.RecyclerView
+                                    android:id="@id/rv_home_banners"
+                                    android:layout_width="fill_parent"
+                                    android:layout_height="wrap_content" />-->
+
+				<RelativeLayout
+					android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+					<ImageView android:id="@id/iv_home_lastNewsIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8.0dip" app:srcCompat="@drawable/cast" />
+					<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_latestNews" android:layout_centerVertical="true" android:layout_toEndOf="@id/iv_home_lastNewsIcon" />
+					<TextView android:textColor="@color/colorPrimary" android:id="@id/tv_home_viewAll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/home_viewAll" android:layout_alignParentEnd="true" />
+				</RelativeLayout>
+				<androidx.recyclerview.widget.RecyclerView android:id="@id/rv_home_news" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			</LinearLayout>
+		</androidx.core.widget.NestedScrollView>
+	</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
